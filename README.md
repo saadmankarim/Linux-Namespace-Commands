@@ -1,5 +1,5 @@
 # Linux-Namespace-Commands
-##Adding two Namespaces and conneting then with one veth.
+##Adding two Namespaces and conneting then with one veth.\
 #Adding/Creating Nameservers
 sudo ip netns add ns1
 sudo ip netns add ns2
