@@ -1,5 +1,5 @@
 # Linux-Namespace-Commands
-<h1>##Adding two Namespaces and conneting then with one veth.</h1>\
+<h2>##Adding two Namespaces and conneting then with one veth.</h2>
 #Adding/Creating Nameservers\
 sudo ip netns add ns1\
 sudo ip netns add ns2\
@@ -35,7 +35,7 @@ ip link set ns2-veth0 up
 sudo ip netns exec ns1 ping 10.10.10.3\
 sudo ip netns exec ns2 ping 10.10.10.2
 
-<h1>##Adding two Namespaces and conneting then with using bridge.</h1>\
+<h2>##Adding two Namespaces and conneting then with using bridge.</h2>
 #Adding/Creating Nameservers\
 sudo ip netns add ns-a\
 sudo ip netns add ns-b\
